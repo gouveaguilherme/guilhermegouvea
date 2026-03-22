@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Profissional</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ══════════════════════════════════════
+       NAV
+  ══════════════════════════════════════ -->
+  <nav>
+    <a href="#hero" class="nav-logo">Gui.Design</a>
+    <ul class="nav-links">
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#formacao">Formação</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema" title="Alternar tema claro/escuro"></button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#sobre" class="mobile-link">Sobre</a>
+    <a href="#formacao" class="mobile-link">Formação</a>
+    <a href="#portfolio" class="mobile-link">Portfólio</a>
+    <a href="#contato" class="mobile-link">Contato</a>
+  </div>
+
+  <!-- ══════════════════════════════════════
+       HERO
+  ══════════════════════════════════════ -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-grid">
+      <div class="hero-content reveal">
+        <div class="hero-badge">Disponível para novos projetos</div>
+        <h1 class="hero-title">
+          Olá, sou<br>
+          <span class="accent">Guilherme Gouvea</span><br>
+        </h1>
+        <p class="hero-subtitle">
+          Especialista em Design System — criando bibliotecas escaláveis, acessíveis e prontas para o desenvolvimento.
+        </p>
+        <div class="hero-cta">
+          <a href="#portfolio" class="btn btn-primary">Ver Projetos</a>
+          <a href="#contato" class="btn btn-outline">Entrar em Contato</a>
+        </div>
+      </div>
+      <div class="hero-photo-wrap reveal" style="transition-delay:0.15s">
+        <div class="hero-photo-ring">
+          <div class="hero-photo"><img class="image-cover" src="images/profile-pic.png" alt="Guilherme Gouvea"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       SOBRE
+  ══════════════════════════════════════ -->
+  <section id="sobre">
+    <div class="sobre-grid">
+      <div class="sobre-text reveal">
+        <h2 class="section-title">Sobre Mim</h2>
+        <p>Sou um profissional apaixonado por design e tecnologia, com mais de 6 anos de experiência criando interfaces digitais que combinam estética e funcionalidade.</p>
+        <p>Minha trajetória começou no UX Design, mas foi no diálogo com o desenvolvimento que encontrei meu propósito. Atualmente, foco minha expertise técnica na construção e manutenção de Design Systems, unindo o rigor do código à sensibilidade do design para criar bibliotecas escaláveis, acessíveis e prontas para o desenvolvimento.</p>
+        </br>
+        <a href="#contato" class="btn btn-primary" style="display:inline-flex;">Vamos conversar →</a>
+      </div>
+      <div class="reveal" style="transition-delay:0.12s">
+        <h3 class="sobre-hobbies-title">Interesses</h3>
+        <div class="hobbies-grid">
+          <div class="hobby-card"><span class="hobby-icon">🎬</span><span class="hobby-name">Filmes</span></div>
+          <div class="hobby-card"><span class="hobby-icon">🎧</span><span class="hobby-name">Música</span></div>
+          <div class="hobby-card"><span class="hobby-icon">🎮</span><span class="hobby-name">Jogos</span></div>
+          <div class="hobby-card"><span class="hobby-icon">📚</span><span class="hobby-name">Leitura</span></div>
+          <div class="hobby-card"><span class="hobby-icon">✈️</span><span class="hobby-name">Viagens</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       FORMAÇÃO
+  ══════════════════════════════════════ -->
+  <section id="formacao">
+    <div class="formacao-inner">
+      <div class="reveal">
+        <h2 class="section-title">Formação</h2>
+      </div>
+      <div class="formacao-grid">
+
+        <!-- Coluna Esquerda: Acadêmico + Cursos -->
+        <div>
+          <div class="reveal" style="transition-delay:0.05s">
+            <h3 class="col-subtitle">Acadêmico</h3>
+          </div>
+          <div class="timeline reveal" style="transition-delay:0.1s">
+            <div class="timeline-item">
+              <div class="timeline-period">2018 – 2023</div>
+              <div class="timeline-title">Bacharelado em Animação</div>
+              <div class="timeline-sub">Universidade Federal de Santa Catarina · Floarianópolis, SC</div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-period">2023 – 2024</div>
+              <div class="timeline-title">Pós Graduação em User Experience Design</div>
+              <div class="timeline-sub">UNESC · Blumenau, SC</div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-period">2025 – 2027</div>
+              <div class="timeline-title">Tecnólogo em Análise e Desenvolvimento de Sistemas</div>
+              <div class="timeline-sub">UNINTER · Blumenau, SC</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Coluna Direita: Idiomas -->
+        <div class="reveal" style="transition-delay:0.2s">
+          <h3 class="col-subtitle" style="margin-top:2rem;">Idiomas</h3>
+          <div class="idiomas">
+            <div class="idioma">
+              <div class="idioma-header">
+                <span class="idioma-name">Português</span>
+                <span class="idioma-level">Nativo</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill" data-width="100" style="width:0%"></div></div>
+            </div>
+            <div class="idioma">
+              <div class="idioma-header">
+                <span class="idioma-name">Inglês</span>
+                <span class="idioma-level">Intermediário (B2)</span>
+              </div>
+              <div class="bar-track"><div class="bar-fill" data-width="70" style="width:0%"></div></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       PORTFÓLIO
+  ══════════════════════════════════════ -->
+  <section id="portfolio">
+    <div class="portfolio-inner">
+      <div class="reveal">
+        <h2 class="section-title">Projetos</h2>
+      </div>
+      <div class="portfolio-filters reveal" style="transition-delay:0.08s">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="design-system">Design System</button>
+        <button class="filter-btn" data-filter="project">Projeto</button>
+      </div>
+      <div class="projects-grid reveal" style="transition-delay:0.15s">
+        <div class="project-card" data-category="design-system">
+          <div class="project-cover"><img class="image-cover" src="images/acerta.png" alt="Capa Acerta! Promotora"></div>
+          <div class="project-body">
+            <div class="project-tag">Design System · Financeiro</div>
+            <div class="project-name">DS Acerta! Promotora</div>
+            <div class="project-desc">Criação de um Design System completo, garantindo consistência visual, eficiência e escalabiliadde para todos os sistemaa de empresa.</div>
+            <a target="_blank" href="https://www.figma.com/design/IPTcrvoLsklDKeLa9StRN7/ACERTA--DS----%F0%9F%A7%A9-Components?node-id=1911-6&t=3nNM9NujADUYf1EE-1" class="project-link">Ver Projeto</a>
+          </div>
+        </div>
+        <div class="project-card" data-category="project">
+          <div class="project-cover"><img class="image-cover" src="images/acerta.png" alt="Capa Acerta! Promotora"></div>
+          <div class="project-body">
+            <div class="project-tag">Projeto · Financeiro</div>
+            <div class="project-name">Fluxo de Vendas</div>
+            <div class="project-desc">Desenvolvimento de um fluxo intuitivo para vendedores de crédito, simplificando a jornada de vendas e aumentando a conversão de clientes.</div>
+            <a target="_blank" href="https://www.figma.com/design/VDmwqbhjHmSO9vfp038xks/Fluxo-de-vendas?node-id=3-3382&p=f" class="project-link">Ver Projeto</a>
+          </div>
+        </div>
+        <div class="project-card" data-category="project">
+          <div class="project-cover"><img class="image-cover" src="images/provafacil.png" alt="Capa Acerta! Promotora"></div>
+          <div class="project-body">
+            <div class="project-tag">Projeto · Educação</div>
+            <div class="project-name">Cadastro de Agendamento</div>
+            <div class="project-desc">Melhorias de usabilidade no fluxo de agendamento de provas online, tornando o processo mais ágil, claro e confiável para os usuários.</div>
+            <a target="_blank" href="https://www.figma.com/design/ZM3IgLB2UfalGQc3AsP71q/Cadastro-de-Agendamento?node-id=0-1&p=f" class="project-link">Ver Projeto</a>
+          </div>
+        </div>
+        <div class="project-card" data-category="design-system">
+          <div class="project-cover"><img class="image-cover" src="images/zouti.png" alt="Capa Acerta! Promotora"></div>
+          <div class="project-body">
+            <div class="project-tag">Design System · Vendas</div>
+            <div class="project-name">DS Zouti</div>
+            <div class="project-desc">Desenvolvimento de um Design System robusto, promovendo uniformidade visual e agilizando a criação de interfaces em todo o ecossistema digital da empresa.</div>
+            <a target="_blank" href="https://www.figma.com/design/0m2TBhXwNcFSvflaOmF3OL/-Zouti----Design-System?node-id=1-20655&p=f&t=HZPPLqys1Lc7a1q2-0" class="project-link">Ver Projeto</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       CONTATO
+  ══════════════════════════════════════ -->
+  <section id="contato">
+    <div class="contato-inner">
+      <div class="reveal">
+        <span class="section-label">Contato</span>
+        <h2 class="section-title">Vamos criar algo juntos?</h2>
+      </div>
+      <div class="contato-grid">
+        <div class="contato-info reveal" style="transition-delay:0.08s">
+          <p class="contato-intro">Estou sempre aberto a discutir novos projetos, ideias criativas ou oportunidades de colaboração. Me mande uma mensagem!</p>
+          <div class="contact-links">
+            <a href="mailto:alex@exemplo.com" class="contact-link">
+              <div class="contact-link-icon">✉️</div>
+              <div class="contact-link-text">
+                <div class="contact-link-label">E-mail</div>
+                <div class="contact-link-value">gui.sgouvea@gmail.com</div>
+              </div>
+            </a>
+            <a href="https://api.whatsapp.com/send/?phone=%2B5551996356456&text&type=phone_number&app_absent=0" target="_blank" class="contact-link">
+              <div class="contact-link-icon">📱</div>
+              <div class="contact-link-text">
+                <div class="contact-link-label">Telefone</div>
+                <div class="contact-link-value">+55 (51) 99635-6456</div>
+              </div>
+            </a>
+            <a href="https://www.linkedin.com/in/gouveaguilherme/" target="_blank" class="contact-link">
+              <div class="contact-link-icon">💼</div>
+              <div class="contact-link-text">
+                <div class="contact-link-label">LinkedIn</div>
+                <div class="contact-link-value">linkedin.com/in/gouveaguilherme</div>
+              </div>
+            </a>
+            <a href="https://github.com/gouveaguilherme" target="_blank" class="contact-link">
+              <div class="contact-link-icon">🐙</div>
+              <div class="contact-link-text">
+                <div class="contact-link-label">GitHub</div>
+                <div class="contact-link-value">github.com/gouveaguilherme</div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="reveal" style="transition-delay:0.15s">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="nome">Nome *</label>
+                <input class="form-input" type="text" id="nome" placeholder="Seu nome completo">
+                <span class="error-msg" id="nome-error">Por favor, informe seu nome.</span>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="email">E-mail *</label>
+                <input class="form-input" type="email" id="email" placeholder="seu@email.com">
+                <span class="error-msg" id="email-error">Informe um e-mail válido.</span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="assunto">Assunto</label>
+              <input class="form-input" type="text" id="assunto" placeholder="Sobre o quê você quer falar?">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="mensagem">Mensagem *</label>
+              <textarea class="form-textarea" id="mensagem" placeholder="Descreva seu projeto, ideia ou dúvida..."></textarea>
+              <span class="error-msg" id="mensagem-error">Por favor, escreva uma mensagem.</span>
+            </div>
+            <button type="submit" class="btn-submit" id="submitBtn">
+              <span id="submitText">Enviar Mensagem</span>
+              <span id="submitIcon">→</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════ -->
+  <footer>
+    <div>© 2026 Guilherme Gouvea.</div>
+    <div>Design & Desenvolvimento por <a href="#">Gui.Design</a></div>
+  </footer>
+
+  <!-- ══════════════════════════════════════
+       MODAL
+  ══════════════════════════════════════ -->
+  <div class="modal-overlay" id="modal">
+    <div class="modal">
+      <div class="modal-icon" id="modalIcon">✅</div>
+      <div class="modal-title" id="modalTitle">Mensagem enviada!</div>
+      <div class="modal-text" id="modalText">Obrigado pelo contato. Retornarei em até 24 horas.</div>
+      <button class="modal-close" id="modalClose">Fechar</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
